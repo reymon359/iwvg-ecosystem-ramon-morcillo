@@ -2,6 +2,10 @@
 ## Plantilla para la práctica de Ecosistema (IWVG-ecosystem)
 > Plantilla con Spring básico (API, test) 
 
+## Estado del código
+[![Build Status](https://travis-ci.org/reymon359/software-ecosystem.svg?branch=develop)](https://travis-ci.org/reymon359/software-ecosystem)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=es.upm.miw%3Aiwvg-ecosystem-ramon-morcillo&metric=alert_status)](https://sonarcloud.io/dashboard?id=es.upm.miw%3Aiwvg-ecosystem-ramon-morcillo)
+
 ## Ecosistema
 * Java
 * Maven
