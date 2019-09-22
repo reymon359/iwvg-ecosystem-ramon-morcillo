@@ -6,9 +6,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>software-ecosystem</artifactId>
+    <artifactId>iwvg-ecosystem-ramon-morcillo</artifactId>
     <groupId>es.upm.miw</groupId>
-    <version>1.0.0-Release</version>
+    <version>1.1.0-Release</version>
     <packaging>jar</packaging>
 
     <name>${project.groupId}.${project.artifactId}</name>
