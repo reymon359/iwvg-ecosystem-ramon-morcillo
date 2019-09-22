@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/software-ecosystem-1.0.0-SNAPSHOT.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/iwvg-ecosystem-ramon-morcillo-1.2.0-SNAPSHOT.jar
