@@ -26,6 +26,11 @@ class UserTest {
     }
 
     @Test
+    void testFullNameUpperCase() {
+        assertEquals("RAMON MORCILLO", user.fullNameUpperCase());
+    }
+
+    @Test
     void testInitials(){
         assertEquals("R.", user.initials());
     }
