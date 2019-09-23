@@ -3,7 +3,9 @@ package es.upm.miw.iwvg.ecosystem.practica;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class FractionTest {
     private Fraction fraction;
@@ -40,4 +42,10 @@ public class FractionTest {
     void testGetDenominator(){
         assertEquals(3, fraction.getDenominator());
     }
+
+    @Test
+    void testIsProper(){
+        assertTrue(fraction.isProper());
+    }
+
 }
