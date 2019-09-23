@@ -31,10 +31,6 @@ public class Fraction {
         return this.numerator < this.denominator;
     }
 
-    public boolean isImproper() {
-        return this.numerator > this.denominator;
-    }
-
     public Fraction multiply(Fraction fraction) {
         return new Fraction(this.numerator * fraction.numerator, this.denominator * fraction.denominator);
     }
