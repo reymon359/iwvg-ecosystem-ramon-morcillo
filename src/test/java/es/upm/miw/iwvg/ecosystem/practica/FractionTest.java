@@ -48,4 +48,10 @@ public class FractionTest {
         assertTrue(fraction.isProper());
     }
 
+    @Test
+    void testMultiply() {
+        Fraction result = fraction.multiply(new Fraction(1, 2));
+        assertEquals(2, result.getNumerator());
+        assertEquals(6, result.getDenominator());
+    }
 }

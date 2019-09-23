@@ -30,4 +30,8 @@ public class Fraction {
     public boolean isProper(){
         return this.numerator < this.denominator;
     }
+
+    public Fraction multiply(Fraction fraction) {
+        return new Fraction(this.numerator * fraction.numerator, this.denominator * fraction.denominator);
+    }
 }
