@@ -56,4 +56,9 @@ class DecimalCollectionTest {
         assertThrows(ArithmeticException.class, () -> new DecimalCollection().higher());
     }
 
+    @Test
+    void testAverage(){
+        assertEquals(1.5, this.decimalCollection.average(), 10e-5);
+    }
+
 }
