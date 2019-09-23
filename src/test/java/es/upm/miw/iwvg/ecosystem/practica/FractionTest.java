@@ -48,10 +48,6 @@ public class FractionTest {
     void testIsProper() {
         assertTrue(fraction.isProper());
     }
-    @Test
-    void testIsImproper() {
-        assertFalse(fraction.isImproper());
-    }
 
     @Test
     void testMultiply() {
