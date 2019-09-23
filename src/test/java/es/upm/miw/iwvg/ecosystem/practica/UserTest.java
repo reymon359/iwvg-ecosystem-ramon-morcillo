@@ -24,6 +24,15 @@ class UserTest {
     void testFullName(){
         assertEquals("Ramon Morcillo", user.fullName());
     }
+    @Test
+    void testFullNameReverse(){
+        assertEquals("Morcillo Ramon", user.fullNameReverse());
+    }
+
+    @Test
+    void testFullNameUpperCase() {
+        assertEquals("RAMON MORCILLO", user.fullNameUpperCase());
+    }
 
     @Test
     void testInitials(){

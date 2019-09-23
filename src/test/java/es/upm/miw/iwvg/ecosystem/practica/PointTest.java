@@ -50,4 +50,17 @@ class PointTest {
         assertEquals(2, point.getY());
     }
 
+    @Test
+    void testDistanceBetween(){
+        assertEquals(1.4142, point.distanceBetween(new Point(3,2)), 10e-5);
+    }
+
+    @Test
+    void testSetters() {
+        point.setX(3);
+        point.setY(2);
+        assertEquals(3, point.getX());
+        assertEquals(2, point.getY());
+    }
+
 }
